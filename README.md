@@ -6,3 +6,9 @@ The `r_value` python program is a script python program that have the data of th
 
 ## Cliff's Delta
 The `cliff_delta` calculate the value of cliff to the comparision of reviewer vs bug occurence. 
+
+## Review Depth
+Using the `review_depth` program, fetch all **PRs** that fit within the range of time of a version release and calculate the depth of it. (Number of issue raise by reviewer / Numbers of commits)
+
+## Review Frequency
+Similar to the depth, the `review_frequency` follows the usage of <ins>GitHub API</ins> to fetch all the PRs and count how many distinct and in total of reviewers happen during that version release. 
