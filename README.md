@@ -14,6 +14,6 @@ Using the `review_depth` program, fetch all **PRs** that fit within the range of
 Similar to the depth, the `review_frequency` follows the usage of <ins>GitHub API</ins> to fetch all the PRs and count how many distinct and in total of reviewers happen during that version release. 
 
 ## Bug Occurrence
-To find bug occurrences in between each version release, we did the following:
+To find bug occurrences in between each version release, we did the following through the GitHub's interface website that was provided:
 1. `is:issue state:closed repo:samvera/hyrax closed:>=YYYY-MM-DD closed:<=YYYY-MM-DD` -> Finding the amount of tickets close during the period
 2. `is:issue state:closed repo:samvera/hyrax closed:>=YYYY-MM-DD closed:<=YYYY-MM-DD label:bug` -> Finding the amount of tickets close during the period with bugs label
